@@ -4,7 +4,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Check the README and the open issues first. Security problems go through the Security tab, never here.
+        Check the README and the open issues first. Security problems never go here, see the [security policy](https://github.com/ashwingopalsamy/.github/blob/main/SECURITY.md).
   - type: input
     id: version
     attributes:

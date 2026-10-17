@@ -8,7 +8,7 @@ Open the repository's **Security** tab and choose **Report a vulnerability**. Th
 
 ## what to expect
 
-I acknowledge reports within 7 days (best effort, no SLA). I'll tell you whether I treat it as a vulnerability and agree a disclosure date with you before anything goes public. There is no bug bounty.
+I acknowledge reports within 7 days (best effort, no SLA). I agree a disclosure date with you before anything goes public. There is no bug bounty.
 
 ## scope
 

@@ -22,10 +22,10 @@ Every repository I publish needs the same few files, and I would rather write th
 | :--- | :--- |
 | [CONTRIBUTING](CONTRIBUTING.md) | Open an issue first. Say if an AI tool helped. |
 | [CODE_OF_CONDUCT](CODE_OF_CONDUCT.md) | The Contributor Covenant 3.0, with my address on it. |
-| [SECURITY](SECURITY.md) | Report privately. I answer within 7 days, best effort. |
+| [SECURITY](SECURITY.md) | Report privately. I acknowledge within 7 days, best effort. |
 | [SUPPORT](SUPPORT.md) | Where questions go. |
 | issue forms | A bug report and a proposal. Blank issues are off. |
-| pull request template | What, why, how you checked, and whether a tool helped. |
+| pull request template | What, why, how you checked and whether a tool helped. |
 | private vulnerability form | Asks for a reproduction before it lets you send. |
 
 ## what doesn't carry over

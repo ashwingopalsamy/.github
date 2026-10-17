@@ -6,7 +6,7 @@ This is a personal project. I reply when I can, and I may say no to changes that
 
 For anything bigger than a typo, open an issue first and wait for a reply. A good idea can still be a bad fit.
 
-Questions go through [SUPPORT.md](SUPPORT.md). Security problems never go in an issue (see [SECURITY.md](SECURITY.md)).
+Questions go through [SUPPORT.md](https://github.com/ashwingopalsamy/.github/blob/main/SUPPORT.md). Security problems never go in an issue (see [SECURITY.md](https://github.com/ashwingopalsamy/.github/blob/main/SECURITY.md)).
 
 ## a good pull request
 
@@ -16,7 +16,7 @@ Questions go through [SUPPORT.md](SUPPORT.md). Security problems never go in an 
 
 ## ai tools
 
-Use whatever helps you think. You are still the author, so you should be able to explain every line with the tool closed. If a tool did a substantial part of the work, say so in the pull request or add an `Assisted-by: <tool>` trailer to the commit. I won't merge pull requests opened by autonomous agents. I use these tools myself, so all I ask is that you say so.
+Use whatever helps you think. You are still the author, so you should be able to explain every line with the tool closed. If a tool did a substantial part of the work, say so in the pull request or add an `Assisted-by: <tool>` trailer to the commit. I use these tools myself, so I only ask that you say so. I won't merge pull requests opened by autonomous agents.
 
 ## licence
 
