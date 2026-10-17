@@ -26,3 +26,16 @@ jobs:
         with:
           advanced-security: false
           annotations: true
+
+  # An invalid issue form silently falls back to GitHub's default, so check the schema here.
+  # VULNERABILITY_REPORT.yml is left out: min_length may be newer than the bundled schema.
+  forms:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: issue forms schema
+        run: pipx run check-jsonschema==0.38.2 --builtin-schema vendor.github-issue-forms .github/ISSUE_TEMPLATE/bug.yml .github/ISSUE_TEMPLATE/proposal.yml

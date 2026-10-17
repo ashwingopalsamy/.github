@@ -1,0 +1,33 @@
+name: Proposal
+description: A change or an addition. Start with the problem.
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: What you can't do today.
+    validations:
+      required: true
+  - type: textarea
+    id: who
+    attributes:
+      label: Who hits it, and how often
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed shape
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you considered
+  - type: checkboxes
+    id: preflight
+    attributes:
+      label: Before you send
+      options:
+        - label: I read the README and the open issues.
+          required: true

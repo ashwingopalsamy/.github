@@ -1,0 +1,48 @@
+name: Bug report
+description: Something that should work doesn't.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Check the README and the open issues first. Security problems go through the Security tab, never here.
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: OS and toolchain, for example macOS 26 with Swift 6, or the output of `go version`.
+    validations:
+      required: true
+  - type: textarea
+    id: happened
+    attributes:
+      label: What happened
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Minimal reproduction
+      description: The smallest input or steps that trigger it. A failing test or snippet is ideal.
+    validations:
+      required: true
+  - type: checkboxes
+    id: preflight
+    attributes:
+      label: Before you send
+      options:
+        - label: I searched the existing issues.
+          required: true
+        - label: I reproduced this on the latest release or `main`.
+          required: true
